@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 body {
-    margin: 40px 0px 0px 0px;
+    margin: 100px 0px 100px 0px;
     padding: 0px;
 }
 
@@ -28,10 +30,29 @@ footer a {
     font-weight: 700;
 }
 
+header {
+    background-color: #f1f1f3;
+    padding: 8px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+header a {
+    color: #222;
+    margin-right: 30px;
+    font-weight: 700;
+}
+
 hr {
     border-color: #ffd072;
 }
 
 p, ol, ul, h1, h2, h3, h4, h5, h6 {
     margin: 10px 10%;
+}
+
+h1, h2, h3, h4, h5, h6, a{
+    font-family: 'Shadows Into Light', cursive;
 }
