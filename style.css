@@ -14,13 +14,22 @@ a:hover {
 
 footer {
     margin-top: 30px;
-    background-color: black;
+    background-color: #f1f1f3;
     padding: 8px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 footer a {
-    color: white;
+    color: #222;
     margin-right: 30px;
+    font-weight: 700;
+}
+
+hr {
+    border-color: #ffd072;
 }
 
 p, ol, ul, h1, h2, h3, h4, h5, h6 {
