@@ -8,6 +8,7 @@ body {
 a {
     text-decoration: none;
     color: #333333;
+    font-size: 20px;
 }
 
 a:hover {
@@ -49,10 +50,24 @@ hr {
     border-color: #ffd072;
 }
 
-p, ol, ul, h1, h2, h3, h4, h5, h6 {
+p, ol, ul, h1, h2, h3, h4, h5, h6, img {
     margin: 10px 10%;
 }
 
 h1, h2, h3, h4, h5, h6, a{
     font-family: 'Shadows Into Light', cursive;
+}
+
+img {
+    max-width: 300px;
+    max-height: 500px;
+}
+
+.side-by-side {
+    display: flex;
+}
+
+.side-by-side img {
+    width: 60px;
+    height: 60px;
 }
