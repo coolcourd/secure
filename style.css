@@ -65,9 +65,17 @@ img {
 
 .side-by-side {
     display: flex;
+    max-width: 50%;
 }
 
 .side-by-side img {
     width: 60px;
     height: 60px;
 }
+
+@media only screen and (min-width: 600px) {
+    .side-on-desktop {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
