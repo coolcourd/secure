@@ -63,19 +63,26 @@ img {
     max-height: 500px;
 }
 
-.side-by-side {
-    display: flex;
-    max-width: 50%;
-}
+
 
 .side-by-side img {
     width: 60px;
     height: 60px;
+    margin: 0px;
+}
+
+.side-by-side {
+    margin-left: 10%;
 }
 
 @media only screen and (min-width: 600px) {
     .side-on-desktop {
       display: flex;
       justify-content: space-evenly;
+    }
+    .side-by-side {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0px;
     }
   }
